@@ -17,6 +17,10 @@ const Outer = styled.header`
   justify-content: space-between;
 `
 
+const Inner = styled.header`
+margin: 0 auto;
+`
+
 const StyledLink = styled(Link)`
   color: white;
   text-decoration: none;
@@ -82,7 +86,6 @@ const Header = ({ siteTitle }) => (
     </Inner>
   </Outer>
 )
-
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

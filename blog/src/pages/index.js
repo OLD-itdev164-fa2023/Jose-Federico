@@ -4,8 +4,6 @@ import {Box, Card, Image, Heading} from 'rebass'
 import styled from "styled-components"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { List, ListItem } from '../components/List'
-import * as styles from "../components/index.module.css"
 
 const Grid = styled(Box)`
 box-sizing: border-box;
